@@ -1,6 +1,7 @@
 {
-  "name": "travel-guru",
+  "name": "trural",
   "version": "0.1.0",
+  "homepage": "https://hitesh-c.github.io/trural",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",

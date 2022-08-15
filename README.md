@@ -1,7 +1,6 @@
-travel site in react js with firebase auth [TRAVEL GURU](https://guraguri.netlify.app/).
 
 First clone the repo, then run this commands
-### `cd travel-guru`
+### `cd trural`
 ### `npm i`
 ### `npm start`
 Runs the app in the development mode.<br />
