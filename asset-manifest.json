@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.596184c9.chunk.css",
-    "main.js": "/static/js/main.cbe64230.chunk.js",
-    "main.js.map": "/static/js/main.cbe64230.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.42543a3e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.42543a3e.js.map",
-    "static/css/2.cf1ed878.chunk.css": "/static/css/2.cf1ed878.chunk.css",
-    "static/js/2.0327f284.chunk.js": "/static/js/2.0327f284.chunk.js",
-    "static/js/2.0327f284.chunk.js.map": "/static/js/2.0327f284.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.92171f16d7cd6db776b29a12bb5cfb1a.js": "/precache-manifest.92171f16d7cd6db776b29a12bb5cfb1a.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.cf1ed878.chunk.css.map": "/static/css/2.cf1ed878.chunk.css.map",
-    "static/css/main.596184c9.chunk.css.map": "/static/css/main.596184c9.chunk.css.map",
-    "static/js/2.0327f284.chunk.js.LICENSE.txt": "/static/js/2.0327f284.chunk.js.LICENSE.txt",
-    "static/media/g.svg": "/static/media/g.145bf67b.svg",
-    "static/media/str.svg": "/static/media/str.f752069a.svg",
-    "static/media/trural.png": "/static/media/trural.442fa2ec.png"
+    "main.css": "/trural/static/css/main.596184c9.chunk.css",
+    "main.js": "/trural/static/js/main.d76ed54a.chunk.js",
+    "main.js.map": "/trural/static/js/main.d76ed54a.chunk.js.map",
+    "runtime-main.js": "/trural/static/js/runtime-main.104a7b6f.js",
+    "runtime-main.js.map": "/trural/static/js/runtime-main.104a7b6f.js.map",
+    "static/css/2.cf1ed878.chunk.css": "/trural/static/css/2.cf1ed878.chunk.css",
+    "static/js/2.0327f284.chunk.js": "/trural/static/js/2.0327f284.chunk.js",
+    "static/js/2.0327f284.chunk.js.map": "/trural/static/js/2.0327f284.chunk.js.map",
+    "index.html": "/trural/index.html",
+    "precache-manifest.a920699e695f555a29e337fd1b31f74b.js": "/trural/precache-manifest.a920699e695f555a29e337fd1b31f74b.js",
+    "service-worker.js": "/trural/service-worker.js",
+    "static/css/2.cf1ed878.chunk.css.map": "/trural/static/css/2.cf1ed878.chunk.css.map",
+    "static/css/main.596184c9.chunk.css.map": "/trural/static/css/main.596184c9.chunk.css.map",
+    "static/js/2.0327f284.chunk.js.LICENSE.txt": "/trural/static/js/2.0327f284.chunk.js.LICENSE.txt",
+    "static/media/g.svg": "/trural/static/media/g.145bf67b.svg",
+    "static/media/str.svg": "/trural/static/media/str.f752069a.svg",
+    "static/media/trural.png": "/trural/static/media/trural.442fa2ec.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.42543a3e.js",
+    "static/js/runtime-main.104a7b6f.js",
     "static/css/2.cf1ed878.chunk.css",
     "static/js/2.0327f284.chunk.js",
     "static/css/main.596184c9.chunk.css",
-    "static/js/main.cbe64230.chunk.js"
+    "static/js/main.d76ed54a.chunk.js"
   ]
 }
