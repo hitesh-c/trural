@@ -14,12 +14,16 @@ code {
   background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .6)), url(https://static.toiimg.com/photo/90095439/Bali.jpg
 );
   background-size: cover;
-  color: #efefef!important;
-  background-position: center;
-  min-height: fit-content;
-  height: 100vh;
-}
 
+  background-position: center;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+.covered-home{
+  color: #efefef !important;
+}
 a {
   cursor: pointer;
 }
@@ -119,7 +123,8 @@ a {
   height: 500px !important;
 }
 
-.swiper-button-prev, .swiper-button-next {
+.swiper-button-prev,
+.swiper-button-next {
   top: auto !important;
   bottom: 5% !important;
   color: #000000;
@@ -145,13 +150,15 @@ a {
   }
 }
 
-.swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
   margin-left: 65px !important;
   left: auto;
   right: auto;
 }
 
-.swiper-button-prev:after, .swiper-button-next:after {
+.swiper-button-prev:after,
+.swiper-button-next:after {
   font-size: 14px;
 }
 
@@ -162,10 +169,11 @@ a {
   bottom: 0;
   top: 40%;
 }
+
 .nice-dates svg {
   top: 54%;
-    position: absolute;
-    color: #292525;
-    right: 18px;
-    font-size: 25px;
+  position: absolute;
+  color: #292525;
+  right: 18px;
+  font-size: 25px;
 }
