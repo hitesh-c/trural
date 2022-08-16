@@ -5,6 +5,7 @@ import Login from './components/auth/Login';
 import Booking from './components/booking/Booking';
 import Header from './components/header/Header';
 import Home from './components/home/Home';
+import {Destination} from './components/destination/Destination'
 import PrivateRoute from './components/privateRoute/PrivateRoute';
 import Search from './components/search/Search';
 
@@ -29,6 +30,7 @@ function App() {
         <Header />
         <Switch>
           <Route exact path="/" component={Home} />
+          <Route path="/destination" component={Destination} />
           <Route path="/booking/:id" component={Booking} />
           <PrivateRoute path="/search/:id">
             <Search />

@@ -29,7 +29,7 @@ const Header = () => {
             <Nav.Link as={Link} className="px-4" to="/">News</Nav.Link>
             <Nav.Link as={Link} className="px-4" to="/">Guides</Nav.Link>
             <Nav.Link as={Link} className="px-4" to="/">Couples</Nav.Link>
-            <Nav.Link as={Link} className="px-4" to="/">Destination</Nav.Link>
+            <Nav.Link as={Link} className="px-4" to="/destination">Destination</Nav.Link>
             <Nav.Link as={Link} className="px-4" to="/">Contact</Nav.Link>
             {user ? (
               <>
