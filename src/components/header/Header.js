@@ -25,7 +25,7 @@ const Header = () => {
           <Form inline className="m-auto navBarSearchForm pl-3">
             <FormControl type="text" placeholder="Search your Destination..." className={`mr-sm-2 ${location.pathname === '/' || location.pathname.includes("/booking/") ? 'search-input' : ''}`} />
           </Form>
-          <Nav className={`ml-auto ${location.pathname === '/' || location.pathname.includes("/booking/") ? 'header-nav2' : 'header-nav'}`}>
+          <Nav className={`ml-auto ${location.pathname === '/' || location.pathname.includes("/booking/") || location.pathname === '/destination' ? 'header-nav2' : 'header-nav'}`}>
             <Nav.Link as={Link} className="px-4" to="/">News</Nav.Link>
             <Nav.Link as={Link} className="px-4" to="/">Guides</Nav.Link>
             <Nav.Link as={Link} className="px-4" to="/">Couples</Nav.Link>
