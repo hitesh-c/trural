@@ -41,7 +41,10 @@ const Home = () => {
           <Jumbotron className="bg-transparent px-0">
             <h1 className="font-weight-bold">{booking.name}</h1>
             <p>{booking.description?.slice(0, 150)} ...</p>
-            <Button className="px-4 py-2" variant="warning" onClick={() => history.push(`/booking/${booking.id}`)}>Book Now <BsArrowRight /> </Button>          
+            <div style={{display: "flex"}}>
+            <Button className="px-4 py-2 m-1" variant="warning" onClick={() => history.push(`/booking/${booking.id}`)}>Book Now <BsArrowRight /> </Button>          
+            <Button className="px-4 py-2 m-1" variant="light" onClick={() => history.push(`/destination`)}>Explore </Button>          
+            </div>
             <GoogleButton/>
 
           </Jumbotron>

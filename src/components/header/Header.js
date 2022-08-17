@@ -26,13 +26,12 @@ const Header = () => {
             <FormControl type="text" placeholder="Search your Destination..." className={`mr-sm-2 ${location.pathname === '/' || location.pathname.includes("/booking/") ? 'search-input' : ''}`} />
           </Form>
           <Nav className={`ml-auto ${location.pathname === '/' || location.pathname.includes("/booking/") || location.pathname === '/destination' ? 'header-nav2' : 'header-nav'}`}>
-            <Nav.Link as={Link} className="px-4" to="/">News</Nav.Link>
-            <Nav.Link as={Link} className="px-4" to="/">Guides</Nav.Link>
-            <Nav.Link as={Link} className="px-4" to="/">Couples</Nav.Link>
-            <Nav.Link as={Link} className="px-4" to="/destination">Destination</Nav.Link>
+            <Nav.Link as={Link} className="px-4" to="/">Offers</Nav.Link>
+            <Nav.Link as={Link} className="px-4" to="/destination">Destinations</Nav.Link>
             <Nav.Link as={Link} className="px-4" to="/">Contact</Nav.Link>
             {user ? (
               <>
+                <Nav.Link as={Link} className="px-4" to="/">Bookings</Nav.Link>
                 <Nav.Link className="px-4 font-weight-bold" >{user.name.split(' ')[0]}</Nav.Link>
                 <Nav.Link className="px-4" onClick={signOUtUser} >Logout</Nav.Link>
               </>

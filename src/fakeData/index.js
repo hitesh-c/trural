@@ -34,6 +34,36 @@ const locations = [
         type2: 'Cancellation fexibility available',
         star: '4.9 (25)',
         dollars: 44
+      },
+      {
+        id: 3,
+        image: 'https://i.ibb.co/2KGXjvq/Rectangle-27.png',
+        title: 'Light bright airy stylish apt & safe peaceful stay',
+        type: '4 guests  2 bedrooms  2 bed  2 baths ',
+        type1: 'Wif Air conditioning Kitchen',
+        type2: 'Cancellation fexibility available',
+        star: '4.9 (20)',
+        dollars: 34
+      },
+      {
+        id: 4,
+        image: 'https://i.ibb.co/R260GQJ/Rectangle-26.png',
+        title: 'Apartment in Lost Panorama',
+        type: '4 guests  2 bedrooms  2 bed  2 baths ',
+        type1: 'Wif Air conditioning Kitchen',
+        type2: 'Cancellation fexibility available',
+        star: '4.8 (10)',
+        dollars: 52
+      },
+      {
+        id: 5,
+        image: 'https://i.imgur.com/xAhXefg.png',
+        title: 'AR Lounge & Pool (r&r + b&b)',
+        type: '4 guests  2 bedrooms  2 bed  2 baths ',
+        type1: 'Wif Air conditioning Kitchen',
+        type2: 'Cancellation fexibility available',
+        star: '4.9 (25)',
+        dollars: 44
       }
     ]
   },
