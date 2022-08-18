@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a22e0e47baded451d8cfd73215d82cf1",
+    "revision": "873a8d76fe68cded1934c91d8f23bd77",
     "url": "/trural/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/trural/static/css/2.cf1ed878.chunk.css"
   },
   {
-    "revision": "fc478f4259d26812e25f",
+    "revision": "ca4d342d285a8af34c38",
     "url": "/trural/static/css/main.f2c6de63.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/trural/static/js/2.846a4b76.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fc478f4259d26812e25f",
-    "url": "/trural/static/js/main.3547c166.chunk.js"
+    "revision": "ca4d342d285a8af34c38",
+    "url": "/trural/static/js/main.a0498dd7.chunk.js"
   },
   {
     "revision": "c427946d6d528f57883a",
