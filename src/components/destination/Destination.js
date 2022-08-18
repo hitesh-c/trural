@@ -1,6 +1,7 @@
 import React from 'react'
 import locations from '../../fakeData/index'
 import { DestinationCard } from './DestinationCard';
+import VillageCard from './VillageCard';
 import { Button, Col, Container, Jumbotron, Row } from 'react-bootstrap';
 
 export const Destination = () => {
@@ -14,7 +15,23 @@ export const Destination = () => {
         }
     }
     return (
-        <Container className="pr-0 mt-5 pt-5">
+        <Row>
+            <Col sm={12} lg={2}>
+            {/* search */}
+            Search here
+            </Col>
+            <Col>
+            <Row style={{height: "300px"}}>
+                {
+                    locations.map((item)=>{
+                        return(
+                            <VillageCard data={item}></VillageCard>
+                        )
+                    })
+                }
+            </Row>
+            <Row>Destination card</Row>
+            </Col>
              {/* <Row>
             {
                 locations.map((item)=>{
@@ -28,8 +45,8 @@ export const Destination = () => {
             
             </Row> */}
 
-            <h1>See Discord for instructions.</h1>
+            {/* <h1>See Discord for instructions.</h1> */}
 
-        </Container>
+        </Row>
     )
 }
