@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/trural/static/css/main.f2c6de63.chunk.css",
-    "main.js": "/trural/static/js/main.ffe43d1c.chunk.js",
-    "main.js.map": "/trural/static/js/main.ffe43d1c.chunk.js.map",
+    "main.js": "/trural/static/js/main.3547c166.chunk.js",
+    "main.js.map": "/trural/static/js/main.3547c166.chunk.js.map",
     "runtime-main.js": "/trural/static/js/runtime-main.860be3fb.js",
     "runtime-main.js.map": "/trural/static/js/runtime-main.860be3fb.js.map",
     "static/css/2.cf1ed878.chunk.css": "/trural/static/css/2.cf1ed878.chunk.css",
     "static/js/2.846a4b76.chunk.js": "/trural/static/js/2.846a4b76.chunk.js",
     "static/js/2.846a4b76.chunk.js.map": "/trural/static/js/2.846a4b76.chunk.js.map",
     "index.html": "/trural/index.html",
-    "precache-manifest.8fdeacadb15b9fd9269e79b927b3e21c.js": "/trural/precache-manifest.8fdeacadb15b9fd9269e79b927b3e21c.js",
+    "precache-manifest.d6b4507c7933d7f524882b63fc4d0cd8.js": "/trural/precache-manifest.d6b4507c7933d7f524882b63fc4d0cd8.js",
     "service-worker.js": "/trural/service-worker.js",
     "static/css/2.cf1ed878.chunk.css.map": "/trural/static/css/2.cf1ed878.chunk.css.map",
     "static/css/main.f2c6de63.chunk.css.map": "/trural/static/css/main.f2c6de63.chunk.css.map",
@@ -23,6 +23,6 @@
     "static/css/2.cf1ed878.chunk.css",
     "static/js/2.846a4b76.chunk.js",
     "static/css/main.f2c6de63.chunk.css",
-    "static/js/main.ffe43d1c.chunk.js"
+    "static/js/main.3547c166.chunk.js"
   ]
 }
