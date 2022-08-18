@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "726461f5a589a7d0e092ce8de6ce51ff",
+    "revision": "b5a8da5e8fd3d8cf9bb076017461dec2",
     "url": "/trural/index.html"
   },
   {
-    "revision": "6ddf2fe61d07a301f694",
+    "revision": "696b018e869442f69780",
     "url": "/trural/static/css/2.cf1ed878.chunk.css"
   },
   {
-    "revision": "0e4f3bfde279153d640d",
-    "url": "/trural/static/css/main.596184c9.chunk.css"
+    "revision": "48e637be7ea17fdcd8a7",
+    "url": "/trural/static/css/main.f2c6de63.chunk.css"
   },
   {
-    "revision": "6ddf2fe61d07a301f694",
-    "url": "/trural/static/js/2.b0d074f6.chunk.js"
+    "revision": "696b018e869442f69780",
+    "url": "/trural/static/js/2.846a4b76.chunk.js"
   },
   {
     "revision": "fdc4023fa9d7d62afa8f74ec645ba6c4",
-    "url": "/trural/static/js/2.b0d074f6.chunk.js.LICENSE.txt"
+    "url": "/trural/static/js/2.846a4b76.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0e4f3bfde279153d640d",
-    "url": "/trural/static/js/main.4ac58648.chunk.js"
+    "revision": "48e637be7ea17fdcd8a7",
+    "url": "/trural/static/js/main.ffe43d1c.chunk.js"
   },
   {
     "revision": "c427946d6d528f57883a",
