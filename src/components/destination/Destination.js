@@ -2,6 +2,7 @@ import React from 'react'
 import locations from '../../fakeData/index'
 import { DestinationCard } from './DestinationCard';
 import VillageCard from './VillageCard';
+import SearchComponent from './SearchComponent';
 import { Button, Col, Container, Jumbotron, Row } from 'react-bootstrap';
 
 export const Destination = () => {
@@ -18,7 +19,7 @@ export const Destination = () => {
         <Row>
             <Col sm={12} lg={2}>
             {/* search */}
-            Search here
+            <SearchComponent></SearchComponent>
             </Col>
             <Col>
             <Row style={{height: "300px"}}>
