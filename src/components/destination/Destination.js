@@ -17,7 +17,7 @@ export const Destination = () => {
     }
     return (
         <Row>
-            <Col sm={12} lg={2}>
+            <Col md={6} lg={2} sm={12}>
             {/* search */}
             <SearchComponent></SearchComponent>
             </Col>
