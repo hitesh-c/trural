@@ -26,7 +26,7 @@ function App() {
   }
   return (
     <UserContext.Provider value={{ user, setUser, bookingInfo, setBookingInfo, signOUtUser }}>
-      <div className={`${location.pathname === '/' || location.pathname.includes('booking')|| location.pathname === '/destination' ? "home" : ""}`}></div>
+      <div className={`${location.pathname === '/' || location.pathname.includes('booking') ? "home" : ""}`}></div>
       <div className={`${location.pathname === '/' || location.pathname.includes('booking')|| location.pathname === '/destination' ? "covered-home" : ""}`}>
         <Header />
         <Switch>

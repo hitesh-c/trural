@@ -9,8 +9,8 @@ const Header = () => {
   const location = useLocation();
   const { user, signOUtUser } = useContext(UserContext)
   return (
-    <Container>
-      <Navbar expand="lg" className="pt-4 text-primary">
+    <Container fluid>
+      <Navbar expand="lg" className= {`pt-4 text-primary ${location.pathname === "/destination" && "destination-navbar"}`}>
         <Navbar.Brand as={Link} to="/">
           <img
             src={logo}

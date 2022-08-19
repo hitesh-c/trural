@@ -36,18 +36,37 @@ export const DestinationCard = ({data}) => {
 
         //     </Card.Body>
         // </Card>
-        <Row>
-            <Col lg={3}></Col>
-            <Col lg={8}>
-            <h2>{data.title}</h2>
-            <h3>Village Name : {data.village}</h3>
-            </Col>
-            <Col>
-                <div>
-                    {`${review.number} reviews`}
-                </div>
+        // <Row>
+        //     <Col lg={3}></Col>
+        //     <Col lg={8}>
+        //     <h2>{data.title}</h2>
+        //     <h3>Village Name : {data.village}</h3>
+        //     </Col>
+        //     <Col>
+        //         <div>
+        //             {`${review.number} reviews`}
+        //         </div>
                 
-            </Col>
-        </Row>
+        //     </Col>
+        // </Row>
+        <div className="fpItem" style={{display: "flex", flexDirection: "column", justifyContent: "space-between"}}>
+        <img
+          src={data.image}
+          alt=""
+          className="fpImg"
+        />
+        <span className="fpName">{data.title}</span>
+        <span className="fpCity" style={{color: "black"}}>{data.village}</span>
+        <span className="fpPrice">{`$${data.dollars}`}</span>
+        <div className="fpRating">
+          <button>{review.star}</button>
+          <span>
+            {review.star> 4.5 && 'Excellent'}
+            {review.star> 4.0 && review.star<=4.5 && 'Very Good'}
+            {review.star>3.0 && review.star<=4.0 && 'Average'}
+            {review.star<=3.0 && "Poor"}
+          </span>
+        </div>
+      </div>
     )
 }

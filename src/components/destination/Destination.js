@@ -4,6 +4,7 @@ import { DestinationCard } from './DestinationCard';
 import VillageCard from './VillageCard';
 import SearchComponent from './SearchComponent';
 import { Button, Col, Container, Jumbotron, Row } from 'react-bootstrap';
+import './Destination.css'
 
 export const Destination = () => {
     const fakeData = locations[0];
@@ -16,13 +17,13 @@ export const Destination = () => {
         }
     }
     return (
-        <Row>
+        <Row style={{margin: "0"}}>
             <Col md={6} lg={2} sm={12}>
             {/* search */}
             <SearchComponent></SearchComponent>
             </Col>
             <Col>
-            <Row style={{height: "300px"}}>
+            <Row style={{height: "320px"}}>
                 {
                     locations.map((item)=>{
                         return(
@@ -31,7 +32,15 @@ export const Destination = () => {
                     })
                 }
             </Row>
-            <Row>Destination card</Row>
+            <Row >
+                <div className="fp">
+                    {
+                        locations[0].hotels.map(item=>
+                            <DestinationCard data={{...item, village:locations[0].name}}></DestinationCard>
+                        )
+                    }
+                </div>
+            </Row>
             </Col>
              {/* <Row>
             {
