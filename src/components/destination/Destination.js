@@ -23,7 +23,7 @@ export const Destination = () => {
             <SearchComponent></SearchComponent>
             </Col>
             <Col>
-            <Row style={{height: "320px"}}>
+            <Row>
                 {
                     locations.map((item)=>{
                         return(

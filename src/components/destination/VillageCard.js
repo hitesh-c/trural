@@ -6,18 +6,20 @@ import "./Destination.css"
 const VillageCard = ({ data }) => {
     return (
         <div style={{ padding: "2px"}}>
-            <Card style={{ width: '16rem', height: '15rem', background: "rgba(0,0,0,0.4)", borderRadius: "22px" }} className="img-fluid">
+            <div style={{ width: '16rem', height: '15rem', background: "rgba(0,0,0,0.4)", borderRadius: "22px" }} className="img-fluid">
                 <Card.Img style={{ height: '15rem' }} variant="top" src={data.image} />
                 <Button className="bg-transparent booking">{data.name}</Button>
 
-                <Card.Body>
-                    <div style={{ display: "flex", justifyContent: "space-around", height: "fit-content" }}>
+                <div style={{padding: "10px"}}>
+                    
+                    <div style={{ display: "flex", justifyContent: "space-around"}}>
                         <Button variant="warning">Show Houses</Button>
                         <Button variant="light">Details</Button>
                     </div>
 
-                </Card.Body>
-            </Card>
+                </div>
+            </div>
+            <div style={{height: "60px"}}></div>
         </div>
     )
 }
