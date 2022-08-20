@@ -8,41 +8,45 @@ import './Destination.css'
 
 export const Destination = () => {
     const fakeData = locations[0];
-    const extractFewWords = (text)=>{
+    const extractFewWords = (text) => {
         //Extracts first 80 characters from a text and adds ... after it
-        if(text.length>80){
-            return `${text.substring(0,80)}...`;
-        }else{
+        if (text.length > 80) {
+            return `${text.substring(0, 80)}...`;
+        } else {
             return text;
         }
     }
     return (
-        <Row style={{margin: "0"}}>
-            <Col md={6} lg={2} sm={12}>
-            {/* search */}
-            <SearchComponent></SearchComponent>
+        <Row style={{ margin: "4px 0px" }}>
+            <Col md={4} lg={2} sm={12}>
+                {/* search */}
+                <SearchComponent></SearchComponent>
             </Col>
             <Col>
-            <Row>
-                {
-                    locations.map((item)=>{
-                        return(
-                            <VillageCard data={item}></VillageCard>
-                        )
-                    })
-                }
-            </Row>
-            <Row >
-                <div className="fp">
+                <Row>
                     {
-                        locations[0].hotels.map(item=>
-                            <DestinationCard data={{...item, village:locations[0].name}}></DestinationCard>
-                        )
+                        locations.map((item) => {
+                            return (
+                                <Col sm={6} xl={2} >
+                                    <VillageCard data={item}></VillageCard>
+                                </Col>
+                            )
+                        })
                     }
-                </div>
-            </Row>
+                </Row>
+                <Row className='fp'>
+                        {
+
+                            locations[0].hotels.map(item =>
+                                <Col sm={3} md={3} xl={2}>
+                                <DestinationCard data={{ ...item, village: locations[0].name }} style={{padding: "4px 0px"}}></DestinationCard>
+                                </Col>
+                            )
+                        }
+                    
+                </Row>
             </Col>
-             {/* <Row>
+            {/* <Row>
             {
                 locations.map((item)=>{
                     return(

@@ -13,8 +13,8 @@ const VillageCard = ({ data }) => {
                 <div style={{padding: "10px"}}>
                     
                     <div style={{ display: "flex", justifyContent: "space-around"}}>
-                        <Button variant="warning">Show Houses</Button>
-                        <Button variant="light">Details</Button>
+                        <Button variant="warning" style={{ fontSize: "12px"}}>Houses</Button>
+                        <Button variant="light" style={{ fontSize: "12px"}}>Details</Button>
                     </div>
 
                 </div>
